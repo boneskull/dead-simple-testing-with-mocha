@@ -1,0 +1,10 @@
+{
+  "name": "bargs",
+  "version": "0.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "keywords": [],
+  "author": "Christopher Hiller <boneskull@boneskull.com> (https://boneskull.com/)",
+  "license": "Apache-2.0",
+  "private": true
+}
