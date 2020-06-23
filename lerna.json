@@ -1,0 +1,14 @@
+{
+  "packages": [
+    "01-setup/bargs",
+    "02-your-first-test/bargs",
+    "03-actual-tests/bargs",
+    "04-introducing-mocha/bargs"
+  ],
+  "command": {
+    "bootstrap": {
+      "npmClientArgs": ["--no-package-lock"]
+    }
+  },
+  "version": "0.0.0"
+}

@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "postinstall": "lerna bootstrap"
+  },
   "keywords": [],
   "author": "Christopher Hiller <boneskull@boneskull.com> (https://boneskull.com/)",
   "license": "Apache-2.0",
@@ -11,6 +13,7 @@
   "devDependencies": {
     "@types/mocha": "^7.0.2",
     "@types/node": "^14.0.13",
+    "lerna": "^3.22.1",
     "prettier": "^2.0.5"
   },
   "prettier": {

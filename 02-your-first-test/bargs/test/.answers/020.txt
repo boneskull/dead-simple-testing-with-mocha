@@ -1,0 +1,11 @@
+/Users/boneskull/projects/dead-simple-testing-with-mocha/02-your-first-test/bargs/test/bargs.spec.js:4
+  throw new Error('test failed');
+  ^
+
+Error: test failed
+    at Object.<anonymous> (/Users/boneskull/projects/dead-simple-testing-with-mocha/02-your-first-test/bargs/test/bargs.spec.js:4:9)
+    at Module._compile (internal/modules/cjs/loader.js:1200:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
+    at Module.load (internal/modules/cjs/loader.js:1049:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)

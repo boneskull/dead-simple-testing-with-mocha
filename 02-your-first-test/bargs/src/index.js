@@ -21,8 +21,12 @@ exports.parse = (argv = process.argv.slice(2), opts = {expectsValue: []}) => {
         result._ = [...result._, ...argv.slice(++pos)];
         return result;
       }
-      arg = arg.replace(/^-+/, '');
-      result[arg] = expectsValue.has(arg) ? argv[++pos] : true;
+      let [realArg, value] = arg.replace(/^-+/, '').split('=');
+      if (expectsValue.has(realArg)) {
+        result[realArg] = value === undefined ? argv[++pos] : value;
+      } else {
+        result[realArg] = value === 'false' ? false : true;
+      }
     } else {
       result._ = [...result._, arg];
     }
@@ -37,6 +41,7 @@ exports.parse = (argv = process.argv.slice(2), opts = {expectsValue: []}) => {
  */
 
  /**
+  * Array of positional arguments
   * @typedef {Object} BargsArgs
   * @property {string[]} _ - Array of positional arguments
   */
