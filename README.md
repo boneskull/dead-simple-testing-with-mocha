@@ -4,6 +4,8 @@
 
 The stuff in this repo contains materials for my workshop, **Dead Simple Testing with Mocha**.
 
+**[Slides](https://speakerdeck.com/boneskull/dead-simple-testing-with-mocha)** / **[Recording](https://youtu.be/JhQ-PuwoWAE)**
+
 ## Motivation
 
 **The intent of this workshop is to illustrate fundamental testing principles using [Mocha](https://mochajs.org), a JavaScript testing framework.**
